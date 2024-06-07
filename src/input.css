@@ -1,0 +1,62 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+	transition: all 500ms ease-in-out;
+}
+
+:root{
+	--rose-white: #fff5f8;
+	--eggshell: #f3e6d8;
+	--Light-Grey: #e4ded8;
+	--Wenge-Brown: #5f574e;
+	--Dark-charcoal: #302d2c;
+	--Nutmeg:#854632;
+	--Raspberry:#7b284f;
+}
+
+Article>div:first-child{
+	margin-top:4px;
+}
+
+Article>div:not(:first-child){
+	margin-top: 32px;
+}
+
+table tr:not(:last-child){
+	border-bottom:2px solid var(--Light-Grey);
+}
+
+@font-face {
+	font-family: Outfit-Bold;
+	src: url(../assets/fonts/outfit/static/Outfit-Bold.ttf);
+}
+@font-face {
+	font-family: Outfit-Regular;
+	src: url(../assets/fonts/outfit/static/Outfit-Regular.ttf);
+}
+@font-face {
+	font-family: Outfit-Black;
+	src: url(../assets/fonts/outfit/static/Outfit-Black.ttf);
+}
+@font-face {
+	font-family: Outfit-Light;
+	src: url(../assets/fonts/outfit/static/Outfit-Light.ttf);
+}
+@font-face {
+	font-family: Outfit-Medium;
+	src: url(../assets/fonts/outfit/static/Outfit-Medium.ttf);
+}
+@font-face {
+	font-family: Outfit-Thin;
+	src: url(../assets/fonts/outfit/static/Outfit-Thin.ttf);
+}
+@font-face {
+	font-family: Outfit-SemiBold;
+	src: url(../assets/fonts/outfit/static/Outfit-SemiBold.ttf);
+}
+@font-face {
+	font-family: YSR;
+	src: url(../assets/fonts/young-serif/YoungSerif-Regular.ttf);
+}
