@@ -29,8 +29,8 @@ I successfully completed the recipe page challenge.
 
 ### Links
 
-- Solution URL: [Solution](https://your-solution-url.com)
-- Live Site URL: [Github Live Site](https://your-live-site-url.com)
+- Solution URL: [Solution](https://www.frontendmentor.io/solutions/responsive-recipe-page-AdYY1n1Kiu)
+- Live Site URL: [Github Live Site](https://caspgin.github.io/FMC---Recipe-page/src/index.html)
 
 ## My process
 
